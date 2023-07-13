@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.agrofamrs.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_crop_monitoring"
+        android:name="com.example.agrofamrs.ui.crop.CropFragment"
+        android:label="Crop Monitoring"
+        tools:layout="@layout/fragment_crop_monitoring" />
+
+    <fragment
+        android:id="@+id/nav_data_analytics"
+        android:name="com.example.agrofamrs.ui.data.DataFragment"
+        android:label="Data Analytics"
+        tools:layout="@layout/fragment_data_analytics" />
+
+    <fragment
+        android:id="@+id/nav_resource_management"
+        android:name="com.example.agrofamrs.ui.resource.ResourceFragment"
+        android:label="Resource Management"
+        tools:layout="@layout/fragment_resource_management" />
+
+    <fragment
+        android:id="@+id/nav_market_access"
+        android:name="com.example.agrofamrs.ui.market.MarketFragment"
+        android:label="Market Access"
+        tools:layout="@layout/fragment_market_access" />
+</navigation>

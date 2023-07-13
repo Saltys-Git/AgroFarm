@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_crop_monitoring"
+            android:icon="@drawable/baseline_circle_24"
+            android:title="Crop Monitoring" />
+        <item
+            android:id="@+id/nav_data_analytics"
+            android:icon="@drawable/baseline_circle_24"
+            android:title="Data Analytics" />
+        <item
+            android:id="@+id/nav_resource_management"
+            android:icon="@drawable/baseline_circle_24"
+            android:title="Resource Management" />
+        <item
+            android:id="@+id/nav_market_access"
+            android:icon="@drawable/baseline_circle_24"
+            android:title="Market Access" />
+    </group>
+</menu>
